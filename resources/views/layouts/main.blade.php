@@ -47,9 +47,3 @@
     </body>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </html>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs

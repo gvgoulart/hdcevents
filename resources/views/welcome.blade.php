@@ -4,9 +4,8 @@
 
 @section('content')
     
-    <body class="antialiased">
-        <h1> oi</h1>
-        <img src="img/banner.jpg" alt="">
-    </body>
+@foreach ($events as $event)
+    <p> {{ $event->title }} -- {{ $event->description}}</p>
+@endforeach
 
 @endsection
