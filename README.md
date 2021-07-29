@@ -1,3 +1,17 @@
+#
+Instruções para instalação:
+##
+Após a clonagem do repositório, fazer a instalação do composer na raíz do projeto:
+###
+composer install
+
+Fazer a configuração do arquivo .env copiando o arquivo .env.example:
+###
+cp .env.example .env
+
+Após a configuração do banco de dados em .env, executar as migrations:
+###
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
