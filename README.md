@@ -32,3 +32,7 @@ cp .env.example .env
 Após a configuração do banco de dados em .env, executar as migrations:
 ```
 php artisan migrate:fresh
+
+Executar o localhost e ser feliz.
+```
+php artisan serve
