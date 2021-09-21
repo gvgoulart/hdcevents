@@ -28,10 +28,11 @@ composer install
 Fazer a configuração do arquivo .env copiando o arquivo .env.example:
 ```
 cp .env.example .env
-```
+
 Após a configuração do banco de dados em .env, executar as migrations:
 ```
 php artisan migrate:fresh
+```
 
 Executar o localhost e ser feliz.
 ```
